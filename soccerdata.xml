@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <players>
+    <data>
+      <name>Harry Kane</name>
+      <team>Tottenham</team>
+      <weekely_salary>$200,000</weekely_salary>
+      <expiration_date>2024/06/30</expiration_date>
+      <Goals_season>17</Goals_season>
+      <assists_season>4</assists_season>
+      <games_played>29</games_played>
+    </data>
+    <data>
+      <name>Sergio Aguero</name>
+      <team>Man City</team>
+      <weekely_salary>$220,000</weekely_salary>
+      <expiration_date>2021/06/30</expiration_date>
+      <Goals_season>19</Goals_season>
+      <assists_season>7</assists_season>
+      <games_played>30</games_played>
+    </data>
+    <data>
+      <name>Ashley Barnes</name>
+      <team>Burnely</team>
+      <weekely_salary>$20,000</weekely_salary>
+      <expiration_date>2019/06/30</expiration_date>
+      <Goals_season>10</Goals_season>
+      <assists_season>2</assists_season>
+      <games_played>33</games_played>
+    </data>
+    <data>
+      <name>Mo Salah</name>
+      <team>Liverpool</team>
+      <weekely_salary>$200,000</weekely_salary>
+      <expiration_date>2023/06/30</expiration_date>
+      <Goals_season>19</Goals_season>
+      <assists_season>7</assists_season>
+      <games_played>34</games_played>
+    </data>
+    <data>
+      <name>Pierre-Emerick Aubameyang</name>
+      <team>Arsenal</team>
+      <weekely_salary>$180,000</weekely_salary>
+      <expiration_date>2021/06/30</expiration_date>
+      <Goals_season>18</Goals_season>
+      <assists_season>5</assists_season>
+      <games_played>30</games_played>
+    </data>
+    <data>
+      <name>Paul Pogba</name>
+      <team>Manchester United</team>
+      <weekely_salary>$290,000</weekely_salary>
+      <expiration_date>2021/06/30</expiration_date>
+      <Goals_season>13</Goals_season>
+      <assists_season>9</assists_season>
+      <games_played>30</games_played>
+    </data>
+    <data>
+      <name>Mesut Ozil</name>
+      <team>Arsenal</team>
+      <weekely_salary>$350,000</weekely_salary>
+      <expiration_date>2021/06/30</expiration_date>
+      <Goals_season>4</Goals_season>
+      <assists_season>2</assists_season>
+      <games_played>21</games_played>
+    </data>
+    <data>
+      <name>Alexis Sanchez</name>
+      <team>Arsenal</team>
+      <weekely_salary>$350,000</weekely_salary>
+      <expiration_date>2022/06/30</expiration_date>
+      <Goals_season>1</Goals_season>
+      <assists_season>3</assists_season>
+      <games_played>17</games_played>
+    </data>
+    <data>
+      <name>N'Golo Kanté</name>
+      <team>Chelsea</team>
+      <weekely_salary>$290,000</weekely_salary>
+      <expiration_date>2023/06/30</expiration_date>
+      <Goals_season>3</Goals_season>
+      <assists_season>4</assists_season>
+      <games_played>33</games_played>
+    </data>
+    <data>
+      <name>Virgil Van Dijk</name>
+      <team>Liverpool</team>
+      <weekely_salary>$180,000</weekely_salary>
+      <expiration_date>2023/06/30</expiration_date>
+      <Goals_season>3</Goals_season>
+      <assists_season>2</assists_season>
+      <games_played>34</games_played>
+    </data>
+    <data>
+      <name>Heung-Min Son</name>
+      <team>Tottenham</team>
+      <weekely_salary>$140,000</weekely_salary>
+      <expiration_date>2023/06/30</expiration_date>
+      <Goals_season>12</Goals_season>
+      <assists_season>7</assists_season>
+      <games_played>27</games_played>
+    </data>
+    <data>
+      <name>Jamie Vardy</name>
+      <team>Leicester City</team>
+      <weekely_salary>$120,000</weekely_salary>
+      <expiration_date>2022/06/30</expiration_date>
+      <Goals_season>15</Goals_season>
+      <assists_season>4</assists_season>
+      <games_played>30</games_played>
+    </data>
+    <data>
+      <name>Ryan Fraser</name>
+      <team>Bournemouth</team>
+      <weekely_salary>$5,000</weekely_salary>
+      <expiration_date>2020/06/30</expiration_date>
+      <Goals_season>7</Goals_season>
+      <assists_season>12</assists_season>
+      <games_played>34</games_played>
+    </data>
+    <data>
+      <name>Christian Eriksen</name>
+      <team>Tottenham</team>
+      <weekely_salary>$75,000</weekely_salary>
+      <expiration_date>2020/06/30</expiration_date>
+      <Goals_season>6</Goals_season>
+      <assists_season>12</assists_season>
+      <games_played>30</games_played>
+    </data>
+    <data>
+      <name>Leroy Sane</name>
+      <team>Man City</team>
+      <weekely_salary>$90,000</weekely_salary>
+      <expiration_date>2021/06/30</expiration_date>
+      <Goals_season>9</Goals_season>
+      <assists_season>11</assists_season>
+      <games_played>27</games_played>
+    </data>
+  </players>

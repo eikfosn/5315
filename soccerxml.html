@@ -1,0 +1,64 @@
+<!-- Source: http://ecis.seattleu.edu/lee/5315/jsonxml/xmltable.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- load jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- load datatables js library -->
+  <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+  <!-- link datatables css -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+  <script type="text/javascript">
+    $(document).ready(function(){
+       var t = $('#chart').DataTable();
+       $.ajax({
+            type: "GET",
+            url: "soccerdata.xml", 
+            dataType: "xml",
+            success: function(xml) {  
+             $(xml).find('data').each(function(){  
+              t.row.add( [
+                $(this).find('name').text(),
+                $(this).find('team').text(),
+                $(this).find('weekely_salary').text(),
+                $(this).find('expiration_date').text(),
+                $(this).find('Goals_season').text(),
+                $(this).find('assists_season').text(),
+                $(this).find('games_played').text()
+              ] ).draw( false );
+             });
+            }
+        });
+      });
+  </script>
+</head>
+
+<body>
+  <table id="chart" class="display" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Weekly Salary</th>
+            <th>Contract Expiration</th>
+            <th>Goals</th>
+            <th>Assists</th>
+            <th>Games</th>
+        </tr>
+    </thead>
+
+    <tfoot>
+        <tr>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Weekly Salary</th>
+            <th>Contract Expiration</th>
+            <th>Goals</th>
+            <th>Assists</th>
+            <th>Games</th>
+        </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
+

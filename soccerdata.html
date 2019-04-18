@@ -7,12 +7,12 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
 </head>
 <body>
-    <table id="empTable" class="display" width="100%" cellspacing="0">
+    <table id="soccerTable" class="display" width="100%" cellspacing="0">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Team</th>
-                <th>Weekely Salary</th>
+                <th>Weekly Salary</th>
                 <th>Contract Expiration</th>
                 <th>Goals</th>
                 <th>Assists</th>
@@ -39,7 +39,7 @@
     
     <script type="text/javascript">
     $(document).ready(function() {
-        $('#empTable').dataTable({
+        $('#soccerTable').dataTable({
             "ajax": "Soccerdata.js",
             "columns": [
                 {"data": "name"},
