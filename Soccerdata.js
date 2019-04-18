@@ -3,7 +3,7 @@
     {
       "name": "Harry Kane",
       "Team": "Tottenham",
-      "weekely_salary": "$200,000",
+      "week_salary": "$200,000",
       "expiration_date": "2024/06/30",
       "Goals_season": "17",
       "assists_season": "4",
